@@ -17,7 +17,7 @@ Universitas Sanata Dharma Yogyakarta | `SD20210000128`
 
 <br/>
 
-Repository ini digunakan untuk merekam kegiatan lomba Big Data Challege - Satria Data 2021 yang diikuti oleh tim dari program studi Matematika Universitas Sanata Dharma Yogyakarta. Tim berhasil menjadi finalist dan memperoleh peringkat ketiga akurasi terbaik untuk model jenis kelamin. Metodologi selengkapnya dapat dilihat pada [`Metodologi`](https://github.com/isew25/BDC-Satria-Data-2021/blob/main/Report.pdf).
+Repository ini digunakan untuk merekam kegiatan lomba Big Data Challege - Satria Data 2021 yang diikuti oleh tim dari program studi Matematika Universitas Sanata Dharma Yogyakarta. Tim berhasil menjadi finalist dan memperoleh peringkat ketiga F1-Score terbaik untuk model jenis kelamin. Metodologi selengkapnya dapat dilihat pada [`Metodologi`](https://github.com/isew25/BDC-Satria-Data-2021/blob/main/Report.pdf).
 
 <img src="./assets/klasemen.png" width="900">
 
