@@ -17,15 +17,18 @@ Universitas Sanata Dharma Yogyakarta | `SD20210000128`
 
 <br/>
 
-Repository ini digunakan untuk merekam kegiatan lomba Big Data Challege - Satria Data 2021 yang diikuti oleh tim dari program studi Matematika Universitas Sanata Dharma Yogyakarta. Tim berhasil menjadi finalist dan memperoleh peringkat ketiga akurasi terbaik untuk model jenis kelamin. 
+Repository ini digunakan untuk merekam kegiatan lomba Big Data Challege - Satria Data 2021 yang diikuti oleh tim dari program studi Matematika Universitas Sanata Dharma Yogyakarta. Tim berhasil menjadi finalist dan memperoleh peringkat ketiga akurasi terbaik untuk model jenis kelamin. Metodologi selengkapnya dapat dilihat pada [`Metodologi`](https://github.com/isew25/BDC-Satria-Data-2021/blob/main/Report.pdf).
 
 <img src="./assets/klasemen.png" width="900">
 
+
 ## Task
 <img src="./assets/previewIMG.png" width="900">
-Memprediksi Jenis Kelamin dan Usia seseorang dari gambar. Pada lomba ini, tidak diperkenankan menggunakan transfer learning, penggunaan arsitektur model pada https://keras.io/api/applications/ diperbolehkan tetapi harus di set `weights=None`.
 
-## [Notebook](./notebook)
+Memprediksi Jenis Kelamin dan Usia seseorang dari gambar. Pada lomba ini, tidak diperkenankan menggunakan transfer learning, penggunaan arsitektur model pada [`Keras Model`](https://keras.io/api/applications/) diperbolehkan tetapi harus di set `weights=None`.
+
+
+## Notebook
 
 Beberapa notebook yang kami gunakan untuk mengerjakan challenge.
 
@@ -33,6 +36,7 @@ Beberapa notebook yang kami gunakan untuk mengerjakan challenge.
 2. `[clustering.ipynb]` : Notebook untuk melakukan eksperimen mengcluster gambar dengan tujuan untuk memperoleh insight.
 3. `[gender.ipynb]` : Final notebook untuk challenge pertama yaitu gender detection.
 4. `[age.ipynb]` : Final notebook untuk challenge kedua yaitu age detection.
+
 
 ## Preprocessing
 Proses ini bertujuan untuk menyeragamkan data, dalam hal ini proses penyeragaman yang dilakukan adalah memotong gambar pada bagian wajah dan merotasi gambar sehingga semua pose wajah menjadi lurus. Pada data latih dan uji terdapat gambar yang memuat beberapa wajah, kami melakukan preprocessing dengan memilih wajah yang terbesar pada gambar. 
@@ -47,19 +51,25 @@ Library yang kami gunakan dalam proses ini adalah [`face_recognition`](https://g
 2. Select
     <img src="./assets/select.png" width="900">
 
+
 ## Augmentasi
 <img src="./assets/augmentasi.png" width="900">
 
 
-## Modeling
+## Modelling
+Artitektur model yang kami gunakan dapat dilihat pada gambar di bawah. Untuk detail mengapa kami memilih menggunakan arsitektur ini dan kelebihan dari arsitektur ini dapat pada [`Metodologi`](https://github.com/isew25/BDC-Satria-Data-2021/blob/main/Report.pdf).
 1. Model Jenis Kelamin
     <img src="./assets/arsitekturJK.png" width="900">
 <br/>
 2. Model Usia
     <img src="./assets/arsitekturUsia.png" width="900">
 
+
 ## Eksperimen
+Kami melakukan eksperimen dengan mengklaster gambar untuk memperoleh insight, tetapi eksperimen ini tidak dilanjutkan karena tidak ada insight yang dapat diambil.
 <img src="./assets/eksperimen2.png" width="900">
 
+
 ## Deployment
+Model yang kami hasilkan dapat memprediksi usia dan jenis kelamin secara realtime dengan cukup baik. 
 <img src="./assets/image72.gif" width="900">
