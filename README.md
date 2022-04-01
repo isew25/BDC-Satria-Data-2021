@@ -28,11 +28,10 @@ Memprediksi Jenis Kelamin dan Usia seseorang dari foto. Pada lomba ini tidak dip
 
 Beberapa notebook yang kami gunakan untuk mengerjakan challenge.
 
-1. `[STARTER] BDC - 2021` : Starter notebook untuk mengerjakan challenge pertama dalam `BDC - Satria Data 2021`.
-2. `[PREPROCESS] BDC - 2021` : Notebook untuk melakukan preprocessing terhadap data gambar.
-3. `[CLUSTERING] BDC - 2021` : Notebook untuk melakukan eksperimen mengcluster gambar dengan tujuan untuk memperoleh insight.
-4. `[GENDER] BDC - 2021` : Final notebook untuk challenge pertama yaitu gender detection.
-5. `[AGE] BDC - 2021` : Final notebook untuk challenge kedua yaitu age detection.
+1. `[preprocessing.ipynb]` : Notebook untuk melakukan preprocessing terhadap data gambar.
+2. `[clustering.ipynb]` : Notebook untuk melakukan eksperimen mengcluster gambar dengan tujuan untuk memperoleh insight.
+3. `[gender.ipynb]` : Final notebook untuk challenge pertama yaitu gender detection.
+4. `[age.ipynb]` : Final notebook untuk challenge kedua yaitu age detection.
 
 ## Preprocessing
 Data yang diperoleh Melakukan preprocessing data gambar yang akan dilatih kedalam model.
@@ -45,6 +44,16 @@ Data yang diperoleh Melakukan preprocessing data gambar yang akan dilatih kedala
 ## Augmentasi
 <img src="./assets/augmentasi.png" width="900">
 
+
+## Modeling
+1. Model Jenis Kelamin
+    <img src="./assets/arsitekturJK.png" width="900">
+
+3. Model Usia
+    <img src="./assets/arsitekturUsia.png" width="900">
+
+## Eksperimen
+<img src="./assets/eksperimen2.png" width="900">
 
 ## Deployment
 <img src="./assets/image72.gif" width="900">
