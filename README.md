@@ -28,16 +28,6 @@ Repository ini digunakan untuk merekam kegiatan lomba Big Data Challege - Satria
 Memprediksi Jenis Kelamin dan Usia seseorang dari gambar. Pada lomba ini, tidak diperkenankan menggunakan transfer learning, penggunaan arsitektur model pada [`Keras Model`](https://keras.io/api/applications/) diperbolehkan tetapi harus di set `weights=None`.
 
 
-## Notebook
-
-Beberapa notebook yang kami gunakan untuk mengerjakan challenge.
-
-1. `[preprocessing.ipynb]` : Notebook untuk melakukan preprocessing terhadap data gambar.
-2. `[clustering.ipynb]` : Notebook untuk melakukan eksperimen mengcluster gambar dengan tujuan untuk memperoleh insight.
-3. `[gender.ipynb]` : Final notebook untuk challenge pertama yaitu gender detection.
-4. `[age.ipynb]` : Final notebook untuk challenge kedua yaitu age detection.
-
-
 ## Preprocessing
 Proses ini bertujuan untuk menyeragamkan data, dalam hal ini proses penyeragaman yang dilakukan adalah memotong gambar pada bagian wajah dan merotasi gambar sehingga semua pose wajah menjadi lurus. Pada data latih dan uji terdapat gambar yang memuat beberapa wajah, kami melakukan preprocessing dengan memilih wajah yang terbesar pada gambar. 
 Data latih dikenakan preprocessing lalu disimpan ke dalam satu folder, hal ini dilakukan agar pada proses selanjutnya dapat dilakukan augmentasi 
